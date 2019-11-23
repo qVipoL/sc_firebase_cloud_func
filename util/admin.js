@@ -4,8 +4,8 @@ const serviceAccount = require("./serviceAcc.json");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://social-app-cffe5.firebaseio.com",
-    storageBucket: "social-app-cffe5.appspot.com"
+    databaseURL: "CHANGE TO YOURS",
+    storageBucket: "CHANE TO YOURS"
 });
 
 const db = admin.firestore();
